@@ -14,7 +14,7 @@ async function fetchJson<T>(path: string): Promise<T | null> {
       });
       if (res.ok) return (await res.json()) as T;
     } catch {
-      // pore porer API try korbe
+      
     }
   }
   return null;

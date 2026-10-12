@@ -8,13 +8,13 @@ const nf2 = new Intl.NumberFormat("bn-BD", {
   maximumFractionDigits: 2,
 });
 
-// ১৪৮, ১,৮৫০
+
 export const toBn = (n: number) => nf.format(n);
 
-// ২.১ (percent, always positive)
+
 export const pctBn = (n: number) => nf1.format(Math.abs(n));
 
-// ৬২ অথবা ৬৩.৫০
+
 export const avgBn = (n: number) =>
   Number.isInteger(n) ? nf.format(n) : nf2.format(n);
 
