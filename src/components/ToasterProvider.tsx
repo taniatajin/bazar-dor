@@ -1,0 +1,15 @@
+"use client";
+
+import { Toaster } from "react-hot-toast";
+
+export default function ToasterProvider() {
+  return (
+    <Toaster
+      position="top-center"
+      toastOptions={{
+        style: { fontFamily: "inherit" },
+        success: { iconTheme: { primary: "#068a40", secondary: "#fff" } },
+      }}
+    />
+  );
+}
