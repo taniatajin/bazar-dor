@@ -1,0 +1,13 @@
+[33m94a49c7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m feat: add friendly Bengali 404 page with link back to home
+[33me7b36f3[m feat: add profile page and update name route using BetterAuth updateUser
+[33m30f2baa[m Add product files
+[33m36c42eb[m feat: add sign in and sign up pages with social login and toast feedback
+[33ma9262b3[m feat: add category page with numeric price sorting and skeleton loading
+[33m70266e1[m feat: build home page with hero, top risers, top fallers and all products
+[33m006e6b0[m feat: add navbar with category links, auth buttons, price ticker and footer
+[33mc8867b1[m feat: set up BetterAuth with MongoDB, email/password, Google and GitHub providers
+[33me58de3e[m feat: add product card, change badge, skeleton loaders, empty state, footer and toaster
+[33mf74eab8[m style: add green theme, DaisyUI plugin, ticker animation, hero image and app icon
+[33mec36b17[m feat: add product types, API helpers with fallback and Bengali number/date formatters
+[33mcc76276[m chore: add BetterAuth, MongoDB adapter, DaisyUI, toast and icon packages
+[33m9e6957e[m Initial commit from Create Next App
